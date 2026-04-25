@@ -65,11 +65,11 @@ The **Online Learning Platform with Adaptive Learning** is a full-stack CRUD web
 ## 🛠️ Tech Stack
 
 ### Frontend
-| Technology | Version | Purpose |
-|------------|---------|--------|
-| React.js | ^18.x | UI component library |
-| React Router DOM | ^6.x | Client-side routing |
-| Pure CSS | — | Custom dark theme styling |
+| Technology | Purpose |
+|-----------|----------------------|
+| React.js | UI component library |
+| React Router DOM | Client-side routing |
+| Pure CSS | Custom dark theme styling |
 
 ### Backend
 | Technology | Version | Purpose |
