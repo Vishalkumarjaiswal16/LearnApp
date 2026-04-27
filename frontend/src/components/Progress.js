@@ -22,7 +22,7 @@ function Progress() {
       <ul className="item-list">
         {progress.map((p, index) => (
           <li key={index}>
-            <strong>{p[0]}</strong> - {p[1]} → {p[2]}%
+            <strong>{p.name}</strong> - {p.course_name} → {p.completion_percentage}%
           </li>
         ))}
       </ul>
