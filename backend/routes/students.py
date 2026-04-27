@@ -1,19 +1,19 @@
-from app import app, mysql
+from app import app, get_db
 from flask import jsonify
 
 @app.route('/students', methods=['GET'])
 def get_students():
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
     cur.execute("SELECT * FROM Students")
     data = cur.fetchall()
 
     students = []
     for row in data:
         students.append({
-            "id": row[0],
-            "name": row[1],
-            "email": row[2],
-            "age": row[3]
+            "id": row['student_id'],
+            "name": row['name'],
+            "email": row['email'],
+            "age": row['age']
         })
 
     return jsonify(students)
