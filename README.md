@@ -30,7 +30,7 @@
 
 ## 🔭 Overview
 
-The **Online Learning Platform with Adaptive Learning** is a full-stack CRUD web application that enables educators and administrators to manage students, courses, and track each student's learning progress. 
+The **Online Learning Platform with Adaptive Learning** is a full-stack CRUD web application that enables educators and administrators to manage students, courses, and track each student's learning progress.
 
 The platform recently underwent a major architectural and design overhaul. It now features a modern "Glassmorphism" deep-slate UI with responsive CSS Grids and has been migrated to **SQLite** for a seamless, zero-configuration local development experience.
 
@@ -39,12 +39,12 @@ The platform recently underwent a major architectural and design overhaul. It no
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](frontend/public/Screenshot%202026-04-09%20104149.png)
+
+![Home Page](frontend/public/Screenshot-2026-04-27-120304.jpg)
 
 ### Learning Dashboard
-![Learning Dashboard - Add Forms](frontend/public/Screenshot%202026-04-09%20104208.png)
 
-![Learning Dashboard - Overview](frontend/public/Screenshot%202026-04-09%20104220.png)
+![Learning Dashboard](frontend/public/Screenshot-2026-04-27-120115.jpg)
 
 ---
 
@@ -64,6 +64,7 @@ The platform recently underwent a major architectural and design overhaul. It no
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 | Technology | Purpose |
 |-----------|----------------------|
 | React.js | UI component library |
@@ -71,6 +72,7 @@ The platform recently underwent a major architectural and design overhaul. It no
 | Pure CSS | Custom Glassmorphism UI styling |
 
 ### Backend
+
 | Technology | Version | Purpose |
 |------------|---------|--------|
 | Python | 3.x | Runtime environment |
@@ -82,7 +84,7 @@ The platform recently underwent a major architectural and design overhaul. It no
 
 ## 📁 Project Structure
 
-```
+```bash
 Online-Learning-Platform-with-Adaptive-Learning/
 ├── backend/
 │   ├── app.py                   # Flask app entry point & routes
@@ -106,6 +108,7 @@ Online-Learning-Platform-with-Adaptive-Learning/
 ### Prerequisites
 
 Make sure you have the following installed on your system:
+
 - [Python 3.x](https://www.python.org/downloads/)
 - [Node.js & npm](https://nodejs.org/)
 
@@ -125,8 +128,10 @@ cd backend
 
 # Create and activate virtual environment
 python -m venv .venv
+
 # Windows
 .\.venv\Scripts\activate
+
 # macOS / Linux
 source .venv/bin/activate
 
@@ -170,7 +175,7 @@ npm start
 | `GET` | `/courses` | Fetch all courses |
 | `POST` | `/add-course` | Add a new course |
 | `GET` | `/progress` | Fetch all progress records |
-| `POST` | `/add-progress`| Add new progress record |
+| `POST` | `/add-progress` | Add new progress record |
 
 ---
 
