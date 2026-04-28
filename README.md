@@ -40,11 +40,11 @@ The platform recently underwent a major architectural and design overhaul. It no
 
 ### Home Page
 
-![Home Page](frontend/public/Screenshot-2026-04-27-120304.jpg)
+![Home Page](frontend/public/Screenshot%202026-04-27%20120304.png)
 
 ### Learning Dashboard
 
-![Learning Dashboard](frontend/public/Screenshot-2026-04-27-120115.jpg)
+![Learning Dashboard](frontend/public/Screenshot%202026-04-27%20120115.png)
 
 ---
 
@@ -87,17 +87,17 @@ The platform recently underwent a major architectural and design overhaul. It no
 ```bash
 Online-Learning-Platform-with-Adaptive-Learning/
 ├── backend/
-│   ├── app.py                   # Flask app entry point & routes
-│   ├── init_db.py               # SQLite database initialization script
-│   ├── database.db              # Auto-generated SQLite database
-│   └── requirements.txt         # Python dependencies
+│   ├── app.py                # Flask app entry point & routes
+│   ├── init_db.py            # SQLite database initialization script
+│   ├── database.db           # Auto-generated SQLite database
+│   └── requirements.txt      # Python dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── components/          # Reusable React components
-│   │   ├── pages/               # Page-level React views (Home, Dashboard)
-│   │   ├── App.js               # Root component with routing
-│   │   └── App.css              # Global styles & Glassmorphism UI
-│   └── package.json             # Node dependencies
+│   │   ├── components/       # Reusable React components
+│   │   ├── pages/            # Page-level React views (Home, Dashboard)
+│   │   ├── App.js            # Root component with routing
+│   │   └── App.css           # Global styles & Glassmorphism UI
+│   └── package.json          # Node dependencies
 ├── README.md
 ```
 
