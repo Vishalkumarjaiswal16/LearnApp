@@ -38,11 +38,11 @@ The platform recently underwent a major architectural and design overhaul. It no
 
 ## 📸 Screenshots
 
-### Home Page
+### Learning Dashboard
 
 ![Home Page](frontend/public/Screenshot%202026-04-27%20120304.png)
 
-### Learning Dashboard
+### Home Page
 
 ![Learning Dashboard](frontend/public/Screenshot%202026-04-27%20120115.png)
 
